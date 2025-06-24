@@ -1,229 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrini Mishra - Full-Stack Developer</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <title>Agrini Mishra | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">Agrini Mishra</div>
-            <ul class="nav-menu">
-                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+  <nav>
+    <div class="nav-logo">AGRINI</div>
+    <ul class="nav-menu">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#certificates" class="nav-link">Certificates</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="hero glass">
+    <div class="hero-content hero-flex">
+      <div>
+        <div class="hero-name">Agrini Mishra</div>
+        <div class="hero-title">
+          Full-Stack Developer & Software Engineer
         </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Hi, I'm <span class="highlight">Agrini Mishra</span></h1>
-            <h2>Full-Stack Developer & Blockchain Enthusiast</h2>
-            <p>Final year CSE student passionate about building scalable web applications and innovative blockchain solutions</p>
-            <div class="hero-buttons">
-                <a href="#projects" class="btn btn-primary">View My Work</a>
-                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-            </div>
+        <div class="hero-description">
+          Final year Computer Science Engineering student with expertise in full-stack development, MERN stack, blockchain technology, and emerging tech solutions. Proven experience developing scalable web applications, smart contracts, and AI-powered systems.
         </div>
-        <div class="hero-image">
-            <img src="images/profile.jpg" alt="Agrini Mishra">
+        <div class="hero-buttons">
+          <a href="https://drive.google.com/file/d/1TXa8tNZZSxCOk4Vzxs75PisWryvIOgVy/view?usp=drivesdk" class="btn" target="_blank">
+            <i class="fas fa-download"></i> Download CV
+          </a>
+          <a href="https://www.linkedin.com/in/agrini-mishra-41236a191" class="btn linkedin" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="https://github.com/agrinimishra" class="btn github" target="_blank" rel="noopener">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=agrinimishra3@gmail.com" class="btn gmail" target="_blank" rel="noopener">
+            <i class="fas fa-envelope"></i> Gmail Me
+          </a>
         </div>
-    </section>
+      </div>
+      <img src="https://media.giphy.com/media/3o7TKMt1VVNkHV2PaE/giphy.gif" alt="Tech Animation" class="hero-gif">
+    </div>
+  </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>I'm a final year Computer Science Engineering student at Chandigarh University with a passion for creating innovative tech solutions. My expertise spans full-stack development using the MERN stack, blockchain technology, and AI-powered systems.</p>
-                    <p>Through my internship at Metacrafters and various projects, I've developed skills in building scalable applications that solve real-world problems. I'm particularly interested in blockchain development and have deployed smart contracts on Ethereum, Solana, and Polygon platforms.</p>
-                    <div class="about-stats">
-                        <div class="stat">
-                            <h3>3+</h3>
-                            <p>Years Coding</p>
-                        </div>
-                        <div class="stat">
-                            <h3>5+</h3>
-                            <p>Projects Completed</p>
-                        </div>
-                        <div class="stat">
-                            <h3>6+</h3>
-                            <p>Certifications</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <p>
+          I'm a final year Computer Science Engineering student at Chandigarh University, passionate about modern web technologies, scalable application development, and blockchain innovation. I specialize in building robust solutions using the MERN stack, React Native, and cloud platforms, and enjoy collaborating on projects that challenge me to grow as a developer and leader.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-list">
+        <div class="skill-block">
+          <div class="skill-title"><i class="fas fa-code"></i> Programming Languages</div>
+          <ul class="skill-list">
+            <li>Python</li>
+            <li>C++</li>
+            <li>JavaScript</li>
+            <li>HTML & CSS</li>
+            <li>Solidity</li>
+          </ul>
         </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Frontend</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">React</span>
-                        <span class="skill-tag">React Native</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">HTML/CSS</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Backend</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">Node.js</span>
-                        <span class="skill-tag">Express.js</span>
-                        <span class="skill-tag">Django</span>
-                        <span class="skill-tag">Python</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Database</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">MongoDB</span>
-                        <span class="skill-tag">MySQL</span>
-                        <span class="skill-tag">SQL</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3>Blockchain</h3>
-                    <div class="skill-items">
-                        <span class="skill-tag">Solidity</span>
-                        <span class="skill-tag">Ethereum</span>
-                        <span class="skill-tag">Solana</span>
-                        <span class="skill-tag">Polygon</span>
-                    </div>
-                </div>
-            </div>
+        <div class="skill-block">
+          <div class="skill-title"><i class="fas fa-laptop-code"></i> Web Development</div>
+          <ul class="skill-list">
+            <li>React</li>
+            <li>React Native</li>
+            <li>Django</li>
+            <li>MERN Stack</li>
+            <li>Node.js, Express.js</li>
+            <li>RESTful APIs</li>
+          </ul>
         </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/ai-voice-assistant.jpg" alt="AI Voice Assistant">
-                    </div>
-                    <div class="project-content">
-                        <h3>AI Voice Assistant</h3>
-                        <p>Intelligent voice assistant with real-time response capabilities using machine learning and NLP</p>
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>Machine Learning</span>
-                            <span>NLP</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="btn btn-small">Live Demo</a>
-                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/nft-marketplace.jpg" alt="NFT Marketplace">
-                    </div>
-                    <div class="project-content">
-                        <h3>Digital Art NFT Marketplace</h3>
-                        <p>Complete NFT marketplace for digital artists with minting, trading, and ownership verification</p>
-                        <div class="project-tech">
-                            <span>Solidity</span>
-                            <span>Blockchain</span>
-                            <span>Web3</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="btn btn-small">Live Demo</a>
-                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="images/grocery-app.jpg" alt="Grocery Store App">
-                    </div>
-                    <div class="project-content">
-                        <h3>Grocery Store E-commerce</h3>
-                        <p>Comprehensive online grocery platform with inventory management and secure payments</p>
-                        <div class="project-tech">
-                            <span>MERN Stack</span>
-                            <span>MongoDB</span>
-                            <span>React</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="btn btn-small">Live Demo</a>
-                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="skill-block">
+          <div class="skill-title"><i class="fas fa-database"></i> Database Technologies</div>
+          <ul class="skill-list">
+            <li>SQL, MySQL</li>
+            <li>MongoDB</li>
+            <li>Database Design</li>
+            <li>Data Management</li>
+          </ul>
         </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's Connect</h3>
-                    <p>I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology.</p>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <span>agrinimishra3@gmail.com</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-phone"></i>
-                            <span>+91-7007177287</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Mohali, Punjab</span>
-                        </div>
-                    </div>
-                    <div class="social-links">
-                        <a href="https://linkedin.com/in/agrini-inmishra-41236a191" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/agrinimishra-" target="_blank"><i class="fab fa-github"></i></a>
-                    </div>
-                </div>
-                <form class="contact-form">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <textarea placeholder="Your Message" rows="5" required></textarea>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
-            </div>
+        <div class="skill-block">
+          <div class="skill-title"><i class="fas fa-tools"></i> Tools & Technologies</div>
+          <ul class="skill-list">
+            <li>Git, GitHub</li>
+            <li>Docker, Jenkins</li>
+            <li>Pandas, NumPy</li>
+          </ul>
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Agrini Mishra. All rights reserved.</p>
+        <div class="skill-block">
+          <div class="skill-title"><i class="fas fa-bolt"></i> Emerging Tech</div>
+          <ul class="skill-list">
+            <li>Blockchain Development</li>
+            <li>Smart Contracts</li>
+            <li>Machine Learning, AI</li>
+          </ul>
         </div>
-    </footer>
+      </div>
+    </div>
+  </section>
 
-    <script src="js/script.js"></script>
+  <section id="certificates">
+    <div class="container">
+      <h2 class="section-title">Certifications</h2>
+      <div class="certificates-list">
+        <div class="certificate-card">
+          <div class="certificate-title"><i class="fas fa-globe"></i> Developing Industrial Internet of Things</div>
+          <div class="certificate-org">Coursera</div>
+        </div>
+        <div class="certificate-card">
+          <div class="certificate-title"><i class="fab fa-python"></i> Django for Everybody Specialization</div>
+          <div class="certificate-org">Coursera</div>
+        </div>
+        <div class="certificate-card">
+          <div class="certificate-title"><i class="fab fa-react"></i> React Native Development</div>
+          <div class="certificate-org">Coursera</div>
+        </div>
+        <div class="certificate-card">
+          <div class="certificate-title"><i class="fas fa-file-alt"></i> How to Write and Publish a Scientific Paper</div>
+          <div class="certificate-org">Coursera</div>
+        </div>
+        <div class="certificate-card">
+          <div class="certificate-title"><i class="fas fa-network-wired"></i> Internet of Things: Design Concepts and Use Cases</div>
+          <div class="certificate-org">SWAYAM</div>
+        </div>
+        <div class="certificate-card">
+          <div class="certificate-title"><i class="fas fa-cloud"></i> Foundation of Cloud IoT Edge using Machine Learning</div>
+          <div class="certificate-org">NPTEL</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Key Projects</h2>
+      <div class="projects-list">
+        <div class="project-card">
+          <img src="https://media.giphy.com/media/l3vR85PnGsBwu1PFK/giphy.gif" alt="AI Project" class="project-gif">
+          <div class="project-title"><i class="fas fa-robot"></i> AI Voice Assistant</div>
+          <div class="project-year">2025</div>
+          <div class="project-tech">Python, ML, NLP</div>
+          <div>
+            Developed an intelligent voice assistant using machine learning algorithms and natural language processing. Implemented speech recognition and real-time response with a user-friendly interface.
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="https://media.giphy.com/media/26xBwdIuRJiAIqHwA/giphy.gif" alt="NFT Project" class="project-gif">
+          <div class="project-title"><i class="fas fa-palette"></i> Digital Art Using NFTs</div>
+          <div class="project-year">2024</div>
+          <div class="project-tech">Solidity, React, Blockchain</div>
+          <div>
+            Created a digital art marketplace platform leveraging blockchain and NFT standards. Implemented smart contracts for NFT minting, trading, and ownership verification.
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="https://media.giphy.com/media/3o6ZtpxSZbQRRnwCKQ/giphy.gif" alt="Grocery Project" class="project-gif">
+          <div class="project-title"><i class="fas fa-shopping-cart"></i> Grocery Store Application</div>
+          <div class="project-year">2023</div>
+          <div class="project-tech">MERN Stack</div>
+          <div>
+            Developed an e-commerce platform for online grocery shopping. Implemented inventory management, shopping cart, and secure payment processing with responsive design.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title">Professional Experience</h2>
+      <div class="about-content">
+        <strong>Summer Intern - Blockchain Technology — Metacrafters (2024)</strong>
+        <ul style="text-align:left; max-width:600px; margin:0 auto;">
+          <li>Completed intensive blockchain technology internship focusing on smart contract development and deployment.</li>
+          <li>Developed and deployed smart contracts on Ethereum, Solana, and Polygon using Solidity.</li>
+          <li>Participated in "Learn & Earn" program, gaining practical experience in decentralized application development.</li>
+          <li>Built real-world blockchain projects demonstrating proficiency in Web3 and DeFi systems.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="about-content">
+        <strong>Bachelor of Computer Science Engineering (2022-2026)</strong><br>
+        Chandigarh University, Mohali<br>
+        <span style="color:#1E3A8A;">Final Year Student</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Let's Connect</h2>
+      <div class="contact-content">
+        <div class="contact-methods">
+          <div class="contact-method">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:agrinimishra3@gmail.com">agrinimishra3@gmail.com</a>
+          </div>
+          <div class="contact-method">
+            <i class="fas fa-map-marker-alt"></i>
+            Mohali, Punjab, India
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/agrini-mishra-41236a191" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/agrinimishra" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // Smooth scrolling for nav links
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', function(e) {
+        const href = this.getAttribute('href');
+        if (href.startsWith('#')) {
+          e.preventDefault();
+          document.querySelector(href).scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+    // Active link highlighting on scroll
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.nav-link');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 100;
+        if (window.scrollY >= sectionTop) {
+          current = section.getAttribute('id');
+        }
+      });
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === `#${current}`) {
+          link.classList.add('active');
+        }
+      });
+    });
+  </script>
 </body>
 </html>
